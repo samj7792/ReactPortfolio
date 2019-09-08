@@ -1,0 +1,28 @@
+{
+  "name": "reactportfolio",
+  "version": "1.0.0",
+  "description": "React Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samj7792/ReactPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samj7792/ReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/samj7792/ReactPortfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
