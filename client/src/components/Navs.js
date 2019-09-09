@@ -7,7 +7,7 @@ export default function Navs() {
       <Navbar.Brand><h1>Samuel Jackson</h1></Navbar.Brand>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/home">About</Nav.Link>
+          <Nav.Link href="/">About</Nav.Link>
           <Nav.Link href="/portfolio">
             Portfolio
           </Nav.Link>
