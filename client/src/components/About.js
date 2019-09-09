@@ -5,7 +5,7 @@ import "./style.css";
 
 export default function About() {
   return (
-    <section id="bioBox" className="clearfix">
+    <section id="content" className="clearfix">
       <Row>
         <Col>
           <h2>About Me</h2>

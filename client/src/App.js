@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Navs from "./components/Navs";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Container>
         <Navs />
         <Route exact path="/" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
       </Container>
     </Router>
   );
