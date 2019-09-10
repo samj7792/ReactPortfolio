@@ -2,6 +2,7 @@ import React from "react";
 import headshot from "../assets/images/headshot.jpg";
 import { Row, Col } from "react-bootstrap";
 import "./style.css";
+import resume from "../assets/images/Resume.pdf";
 
 export default function About() {
   return (
@@ -33,7 +34,7 @@ export default function About() {
       </Row>
       <br />
       <strong>
-        <a href="assets/images/Resume.pdf">Resume</a>
+        <a href={resume}>Resume</a>
       </strong>
       <br />
       <br />
