@@ -12,7 +12,7 @@ export default function Navs() {
             Portfolio
           </Nav.Link>
           <Nav.Link href="https://github.com/samj7792">GitHub</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/samuel-jackson-5634ab179/">LinkedIn</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/samuel-s-jackson/">LinkedIn</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
