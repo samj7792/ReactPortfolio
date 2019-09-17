@@ -3,11 +3,12 @@ import { Navbar, Nav } from "react-bootstrap";
 
 export default function Navs() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar expand="lg" bg="dark" variant="dark">
       <Navbar.Brand>
         <h1>Samuel Jackson</h1>
       </Navbar.Brand>
-      <Navbar id="responsive-navbar-nav">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link href="/">About</Nav.Link>
           <Nav.Link href="/portfolio">Portfolio</Nav.Link>
@@ -16,7 +17,7 @@ export default function Navs() {
             Linkedin
           </Nav.Link>
         </Nav>
-      </Navbar>
+      </Navbar.Collapse>
     </Navbar>
   );
 }
