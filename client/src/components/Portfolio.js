@@ -13,19 +13,6 @@ export default function Portfolio() {
       <hr />
       <CardColumns>
         <Card>
-          <Card.Img src={potter} alt="Harry Potter Game" />
-          <Card.ImgOverlay>
-            <a
-              className="text-decoration-none text-reset"
-              href="https://harrypotter-csd.herokuapp.com/"
-            >
-              <Card.Title className="bg-secondary text-center p-1">
-                Harry Potter Quiz Game
-              </Card.Title>
-            </a>
-          </Card.ImgOverlay>
-        </Card>
-        <Card>
           <Card.Img src={solarsystem} alt="Solar System Adventure" />
           <Card.ImgOverlay>
             <a
@@ -39,11 +26,24 @@ export default function Portfolio() {
           </Card.ImgOverlay>
         </Card>
         <Card>
+          <Card.Img src={potter} alt="Harry Potter Game" />
+          <Card.ImgOverlay>
+            <a
+              className="text-decoration-none text-reset"
+              href="https://harrypotter-csd.herokuapp.com/"
+            >
+              <Card.Title className="bg-secondary text-center p-1">
+                Harry Potter Quiz Game
+              </Card.Title>
+            </a>
+          </Card.ImgOverlay>
+        </Card>
+        <Card>
           <Card.Img src={clicky} alt="Clicky Game" />
           <Card.ImgOverlay>
             <a
               className="text-decoration-none text-reset"
-              href="https://fierce-fjord-59903.herokuapp.com/"
+              href="https://clickygame-ssj.herokuapp.com/"
             >
               <Card.Title className="bg-secondary text-center p-1">
                 Clicky Game
